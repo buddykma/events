@@ -144,6 +144,7 @@ Movie information
     color: #666;
     line-height: 1.4em;
     border-top: 10px solid #555;
+    font-size: 0.955em;
 }
 
 /*************************************
@@ -181,27 +182,33 @@ Posters and still images
 **************************************/
 
 .scene:nth-child(1) .movie .poster {
-    background-image: url(../../assets/img/poster01.jpg);
+    background: url(../../assets/img/poster01.jpg) no-repeat;
+    background-size:cover;
 }
 
 .scene:nth-child(2) .poster {
-    background-image: url(../../assets/img/poster02.jpg);
+    background: url(../../assets/img/poster02.jpg) no-repeat;
+    background-size:cover;
 }
 
 .scene:nth-child(3) .poster {
-    background-image: url(../../assets/img/poster03.jpg);
+    background: url(../../assets/img/poster03.png) no-repeat;
+    background-size:cover;
 }
 
 .scene:nth-child(1) .info header {
-    background-image: url(../../assets/img/still01.jpg);
+    background: url(../../assets/img/still01.jpg) no-repeat;
+    background-size:cover;
 }
 
 .scene:nth-child(2) .info header {
-    background-image: url(../../assets/img/still02.jpg);
+    background: url(../../assets/img/still02.jpg) no-repeat;
+    background-size:cover;
 }
 
 .scene:nth-child(3) .info header {
-    background-image: url(../../assets/img/still03.jpg);
+    background: url(../../assets/img/still03.jpg) no-repeat;
+    background-size:cover;
 }
 
 /*************************************
