@@ -192,7 +192,7 @@ Posters and still images
 }
 
 .scene:nth-child(3) .poster {
-    background: url(../../assets/img/poster03.png) no-repeat;
+    background: url(../../assets/img/poster03.jpg) no-repeat;
     background-size:cover;
 }
 
